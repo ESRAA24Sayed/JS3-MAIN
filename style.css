@@ -1,0 +1,52 @@
+body{
+    background-image: url(bookmark.webp);
+    background-repeat: no-repeat;
+    background-position: top right;
+    background-color: lightpink;
+    
+    
+}
+
+::selection{
+    color: red;
+    
+}
+
+.main-title{
+    font-family: 'Pacifico', cursive;
+    font-size: 50px;
+    font-weight: 500;
+    position: relative;
+    z-index: 1;
+}
+.main-title::after{
+    content: " ";
+    width: 280px;
+    height: 25px;
+    position: absolute;
+    bottom: 0;
+    left: 40%;
+    background-color: red;
+    z-index: -1;
+}
+/* .main-title::after:hover{
+    height: 45px;
+} */
+
+.second-title{
+    font-family: 'Righteous', sans-serif;
+    font-size: 25px;
+    font-weight: 500;
+    text-align: center;
+    margin-top: 50px;
+    /* background: linear-gradient(#3FA55B,#B2AC49); */
+}
+.second-title i{
+    color: red;
+}
+.second-title .i2{
+  color: red;
+}
+.edit{
+    font-weight: bold;
+}
